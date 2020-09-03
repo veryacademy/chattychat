@@ -125,7 +125,6 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
 
-
 ASGI_APPLICATION = "core.routing.application"
 
 CHANNEL_LAYERS = {
